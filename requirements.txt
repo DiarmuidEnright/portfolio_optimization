@@ -3,5 +3,6 @@ pandas
 numpy
 matplotlib
 PyPortfolioOpt
-mlfinlab
+scipy
+cvxpy
 scikit-learn
