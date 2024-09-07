@@ -5,6 +5,7 @@ from models.hrp import hierarchical_risk_parity
 from models.pca import reduce_dimensionality
 from utils.performance import compare_portfolios
 from utils.rolling_backtest import rolling_backtest
+import pandas as pd
 
 tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA']
 start_date = '2018-01-01'

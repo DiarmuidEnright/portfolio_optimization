@@ -1,6 +1,8 @@
 from pypfopt import EfficientFrontier, risk_models, expected_returns
+import pandas as pd
+from typing import Optional
 
-def rolling_backtest(returns, window_size=252):
+def rolling_backtest(returns: pd.DataFrame, window_size: int = 252) -> None:
     rolling_windows = returns.rolling(window=window_size)
     for window in rolling_windows:
         if window.shape[0] == window_size:
