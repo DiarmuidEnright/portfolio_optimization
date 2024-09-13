@@ -12,3 +12,5 @@ def drawdown(returns: pd.Series) -> pd.Series:
     cumulative_returns = (1 + returns).cumprod()
     peak = cumulative_returns.cummax()
     return (cumulative_returns - peak) / peak
+
+    #I forgot
