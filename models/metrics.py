@@ -13,4 +13,4 @@ def drawdown(returns: pd.Series) -> pd.Series:
     peak = cumulative_returns.cummax()
     return (cumulative_returns - peak) / peak
 
-    #I forgot
+    #I forgot :skull:
