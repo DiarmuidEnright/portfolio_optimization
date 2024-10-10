@@ -11,4 +11,4 @@ def calculate_returns(data: pd.DataFrame) -> pd.DataFrame:
     returns = returns[(returns < 0.1) & (returns > -0.1)]
     return returns
 
-    #Forgot to add anything today :3
+    #Forgot to add anything today, I forgot again :3
